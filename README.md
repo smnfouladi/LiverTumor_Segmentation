@@ -1,1 +1,5 @@
-# LiverTumor_segmentation
+# LiverTumor_Segmentation
+
+The LiTS dataset was used in this research. This dataset contains 131 CT volumes for training and 70 CT volumes for testing. The test set does not include ground truth, therefore in this paper only train set is used for both training and testing to supervised liver tumor segmentation. The CT scan volumes were collected from several institutions and hospitals and then ground truth was made by three expert radiologists. The in-plane resolution ranges from 0.5 to 1.0 mm and the slice thickness ranges from 0.7 to 5.0 mm. The LiTS dataset contains 908 lesions (1). In order to train and evaluate the proposed networks performance, 28 CT volumes were used and divided into 25 CT volumes for networks training and 3 CT volumes for networks testing. The number of slices extracted from the used CT volumes are 3,427 and 381for training and testing set, respectively. 
+
+The link of Dataset:https://drive.google.com/drive/folders/0B0vscETPGI1-eE53ZnA0MGhWZFE?resourcekey=0-dhA-eyO37Tn40XVHxpkrLw&usp=sharing
